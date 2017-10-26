@@ -126,6 +126,8 @@ import com.android.settings.wifi.WifiAPITest;
 import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+//Proandroid Tuner
+import com.proandroid.tuner.ProandroidTuner;
 
 public class SettingsGateway {
 
@@ -244,6 +246,8 @@ public class SettingsGateway {
             EnterprisePrivacySettings.class.getName(),
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
+            //Proandroid Tuner
+            ProandroidTuner.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -282,5 +286,7 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
+            //Proandroid Tuner
+            Settings.ProandroidTunerActivity.class.getName(),
     };
 }

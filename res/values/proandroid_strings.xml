@@ -22,4 +22,8 @@
     <!-- About phone screen, build date of ProAndroid FIRMWARE -->
      <string name="proandroid_build_date">ProAndroid Build Date</string>
 
+      <!--Proandroid Tuner-->
+     <string name="proandroid_tuner_title">Proandroid Tuner</string>
+     <string name="proandroid_tuner_summary">Proandroid Firmware Controller</string>
+
 </resources>

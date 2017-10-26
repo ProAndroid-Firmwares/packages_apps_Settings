@@ -37,6 +37,8 @@ import com.android.settingslib.drawer.CategoryKey;
 
 import java.util.Map;
 
+//Proandroid Tuner
+import com.proandroid.tuner.ProandroidTuner;
 /**
  * A registry to keep track of which page hosts which category.
  */
@@ -86,6 +88,9 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
         PARENT_TO_CATEGORY_KEY_MAP.put(ConfigureNotificationSettings.class.getName(),
                 CategoryKey.CATEGORY_NOTIFICATIONS);
+        //Proandroid Tuner
+        PARENT_TO_CATEGORY_KEY_MAP.put(ProandroidTuner.class.getName(),
+                CategoryKey.CATEGORY_PROANDROID);
 
         CATEGORY_KEY_TO_PARENT_MAP = new ArrayMap<>(PARENT_TO_CATEGORY_KEY_MAP.size());
 
